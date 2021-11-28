@@ -1,0 +1,32 @@
+.hero__body {
+  background-image: url(/img/hero__img.png);
+  background-repeat: no-repeat;
+  background-size: 1947px 1298px;
+  background-position: left bottom -171px;
+  height: 600px;
+  padding: 115px 0 0 85px;
+  border-radius: 15px;
+}
+
+.hero__title{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  max-width: 493px;
+  margin-bottom: 32px;
+}
+.hero__text{
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  max-width: 392px;
+  margin-bottom: 56px
+}
+.hero__btn{
+  @include btn;
+}

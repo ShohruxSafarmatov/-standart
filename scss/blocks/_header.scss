@@ -1,0 +1,30 @@
+header{
+  padding: 45px 0px;
+}
+.header__body{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list{
+  display: flex;
+  align-items: center;
+}
+
+.nav__item{
+  margin-left: 32px;
+}
+
+.nav__link{
+  font-family: Barlow;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #83888F;
+  &:hover{
+    color: #333D4B;
+  }
+}
+

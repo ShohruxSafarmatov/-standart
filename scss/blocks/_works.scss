@@ -1,0 +1,127 @@
+
+.works__title{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.works__balls{
+  width: 760px;
+  height: 2px;
+  background-color: #FDD6BA;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.works__span{
+  background: #FEFCF7;
+  border: 2px solid #0E8784;
+  width: 31px;
+  height: 31px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+
+.works__list {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 65px;
+}
+.works__item {
+  width: 285px;
+}
+.works__number {
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+  margin-bottom: 38px;
+}
+.works-inner__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin-bottom: 42px;
+  width: 255px;
+}
+.works-iiner-text {
+  font-family: 'Barlow', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+.works--margin {
+  margin: 0 95px;
+}
+@media only screen and (max-width: 990px) {
+  .works--margin {
+    margin: 0 10px;
+  }
+  .works__item {
+    width: 211px;
+  }
+  .works__balls {
+    width: 520px;
+  }
+  .works__list{
+    align-items: flex-start;
+  }
+  .works-inner__title{
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .works-iiner-text{
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  
+  .works__list{
+    align-items: flex-start;
+  }
+}
+
+
+
+@media only screen and (max-width: 568px) {
+  
+  
+  .works__balls{
+    display: none;
+    
+  }
+  .works__list{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .works__item{
+    text-align: center;
+  }
+  .works-inner__title{
+    font-size: 25px;
+    line-height: 32px;
+    width: auto;
+  }
+  .works-iiner-text{
+    margin-bottom: 55px;
+  }
+  .center{
+    display: block;
+    width: 217px;
+    margin: 0 auto;  }
+    
+  }
+  
